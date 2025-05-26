@@ -28,4 +28,9 @@ public class Match {
     public String toString() {
         return equipe1 + " vs " + equipe2 + " (" + date + ")";
     }
+    public void resetScores() {
+        this.score1 = 0;
+        this.score2 = 0;
+    }
+
 }
