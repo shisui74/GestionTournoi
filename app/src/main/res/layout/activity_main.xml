@@ -190,7 +190,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Nom equipe 2 : "
-        android:layout_marginLeft="50dp">
+        android:layout_marginLeft="150dp">
     </TextView>
     </LinearLayout>
 
@@ -210,7 +210,7 @@
 
         <TextView
             android:id="@+id/textview_score2"
-            android:layout_marginLeft="100dp"
+            android:layout_marginLeft="200dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="50sp"
@@ -233,6 +233,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:backgroundTint="#FFC400"
             android:text="+1">
 
         </Button>
@@ -241,7 +242,8 @@
             android:id="@+id/buttonAdd3A"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
+            android:layout_marginLeft="150dp"
+            android:backgroundTint="#FFC400"
             android:text="+1">
 
         </Button>
@@ -259,6 +261,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:backgroundTint="#FF3D00"
+
             android:text="+3">
 
         </Button>
@@ -267,7 +271,8 @@
             android:id="@+id/buttonAdd3B"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
+            android:layout_marginLeft="150dp"
+            android:backgroundTint="#FF3D00"
             android:text="+3">
 
         </Button>
