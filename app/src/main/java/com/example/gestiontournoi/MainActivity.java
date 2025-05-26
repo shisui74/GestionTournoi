@@ -12,6 +12,17 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        EquipeManager equipeManager = new EquipeManager();
+        MatchManager matchManager = new MatchManager();
+
+        btnCreerEquipe.setOnClickListener(v -> {
+            String nom = editNomEquipe.getText().toString();
+            String ville = editVilleEquipe.getText().toString();
+            equipeManager.ajouterEquipe(nom, ville);
+            // Mettre à jour spinner etc.
+        });
+
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
