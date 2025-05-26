@@ -49,7 +49,7 @@
         android:layout_gravity="center">
 
         <EditText
-            android:id="@+id/moins"
+            android:id="@+id/editNomEquipe"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="Nom : "></EditText>
@@ -57,7 +57,7 @@
 
 
         <EditText
-            android:id="@+id/zero"
+            android:id="@+id/editvilleEquipe"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="Ville : "
@@ -70,12 +70,85 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/buttonAddTeam"
+        android:id="@+id/buttonCreerEquipe"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:text="Créer l'équipe"
         android:layout_gravity="center"/>
 
+    <!-- Section : Créer un match -->
+    <TextView
+        android:id="@+id/textview_creerMatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00BCD4"
+        android:text="Créer un match"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/editDate"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Date : "></EditText>
+
+
+
+        <EditText
+            android:id="@+id/editLieu"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Lieu : "
+            android:layout_gravity="center"
+            android:layout_marginLeft="20sp">
+        </EditText>
+
+
+
+    </LinearLayout>
+
+
+        <!-- Section : Créer un match -->
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+        <Spinner
+            android:id="@+id/spinnerEquipe1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spinnerEquipe2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+    <Button
+        android:id="@+id/buttonCreerMatch"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Créer le match"
+        android:layout_gravity="center"/>
+
+
+
 
 
 </LinearLayout>
+
+
+
+
