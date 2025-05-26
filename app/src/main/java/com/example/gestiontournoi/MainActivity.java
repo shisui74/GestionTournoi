@@ -58,15 +58,15 @@ public class MainActivity extends AppCompatActivity {
 
         // Gestion match
         spinnerMatch = findViewById(R.id.spinnerMatch);
-        nomEquipeA = findViewById(R.id.nomEquipeA);
-        nomEquipeB = findViewById(R.id.nomEquipeB);
-        scoreEquipeA = findViewById(R.id.scoreEquipeA);
-        scoreEquipeB = findViewById(R.id.scoreEquipeB);
-        btnAdd1A = findViewById(R.id.btnAdd1A);
-        btnAdd3A = findViewById(R.id.btnAdd3A);
-        btnAdd1B = findViewById(R.id.btnAdd1B);
-        btnAdd3B = findViewById(R.id.btnAdd3B);
-        btnFinMatch = findViewById(R.id.btnFinMatch);
+        nomEquipeA = findViewById(R.id.editEquipe1);
+        nomEquipeB = findViewById(R.id.editEquipe2);
+        scoreEquipeA = findViewById(R.id.textview_score);
+        scoreEquipeB = findViewById(R.id.textview_score2);
+        btnAdd1A = findViewById(R.id.buttonAdd1A);
+        btnAdd3A = findViewById(R.id.buttonAdd3A);
+        btnAdd1B = findViewById(R.id.buttonAdd1B);
+        btnAdd3B = findViewById(R.id.buttonAdd3B);
+        btnFinMatch = findViewById(R.id.buttonFinMatch);
 
         // Adapter équipes
         ArrayAdapter<Equipe> equipeAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, equipeManager.getEquipes());
